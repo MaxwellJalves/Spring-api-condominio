@@ -1,6 +1,7 @@
 # Spring-api-condominio
-### O projeto tem como objetivo deixar disponivel uma api simples que realizar o cadastro de usuario, veiculo e registra o horario de entrada e saida dos moradores, ao final 
-do projeto será disponibilizado um jar do projeto para que possa ser executada em qualquer computador desde que tenha o Java Runtime Environment (JRE) instalado na maquina.
+### O projeto tem como objetivo deixar disponivel uma api simples que realizar o cadastro de usuario, veiculo e registra o horario de entrada e saida dos moradores.
+
+No final do projeto será disponibilizado um jar do projeto para que possa ser executada em qualquer computador desde que tenha o Java Runtime Environment (JRE) instalado na maquina.
 
 ## O projeto contém os seguintes recursos.
 - Java 11

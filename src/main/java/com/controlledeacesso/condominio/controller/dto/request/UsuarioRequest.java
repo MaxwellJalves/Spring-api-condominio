@@ -13,17 +13,18 @@ import java.util.stream.Collectors;
 @Setter
 @NoArgsConstructor
 public class UsuarioRequest {
+
     private String nome;
     private String email;
     private String telefone;
 
-public UsuarioRequest(Usuario us){
-    this.nome =us.getNome();
-    this.email = us.getEmail();
-    this.telefone = us.getTelefone();
-}
+    public UsuarioRequest(Usuario us) {
+        this.nome = us.getNome();
+        this.email = us.getEmail();
+        this.telefone = us.getTelefone();
+    }
 
-public static UsuarioRequest of (Usuario us){
+    public static UsuarioRequest of(Usuario us) {
         UsuarioRequest usuario = new UsuarioRequest();
         usuario.setNome(us.getNome());
         usuario.setEmail(us.getEmail());
@@ -33,8 +34,8 @@ public static UsuarioRequest of (Usuario us){
     }
 
 
-    public static   List<UsuarioRequest> convert (List<Usuario> all) {
-           return  all.stream().map(UsuarioRequest::new).collect(Collectors.toList());
+    public static List<UsuarioRequest> convert(List<Usuario> all) {
+        return all.stream().map(UsuarioRequest::new).collect(Collectors.toList());
 
     }
 }

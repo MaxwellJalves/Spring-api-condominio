@@ -17,4 +17,5 @@ public class Veiculo {
     private String cor;
     private String modelo;
     private Usuario usuario;
+
 }

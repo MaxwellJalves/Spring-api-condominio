@@ -13,8 +13,9 @@ public class UsuarioService implements UsuarioInterface {
 
     @Autowired
     private UsuarioRepository repository;
-   public static List<Usuario> user = new ArrayList<>();
-    /*Código adicionado para teste pois a persistencia de dados ira ocorrer via banco h2 utilizando */
+
+    public static List<Usuario> user = new ArrayList<>();
+
     @Override
     public Usuario created(Usuario us) {
         user.add(us);

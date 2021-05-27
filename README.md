@@ -1,5 +1,6 @@
 # Spring-api-condominio
-### O projeto tem como objetivo deixar uma api para estudantes de front end realizarem a implementação do front e com os testes podendo serem realizado na propria máquina.
+### O projeto tem como objetivo deixar disponivel uma api simples que realizar o cadastro de usuario, veiculo e registra o horario de entrada e saida dos moradores, ao final 
+do projeto será disponibilizado um jar do projeto para que possa ser executada em qualquer computador desde que tenha o Java Runtime Environment (JRE) instalado na maquina.
 
 ## O projeto contém os seguintes recursos.
 - Java 11
@@ -61,5 +62,6 @@ disponibilizado em breve.
         ]
     }
 
+![testeApi](https://user-images.githubusercontent.com/65586669/119778049-5fb87880-be9d-11eb-9cca-aaa6ee872fbd.jpg)
 
 

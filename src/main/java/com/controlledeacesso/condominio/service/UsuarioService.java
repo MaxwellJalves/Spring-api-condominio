@@ -28,8 +28,13 @@ public class UsuarioService implements UsuarioInterface {
     }
 
     @Override
-    public boolean getByName(String nome) {
-        return user.contains(nome);
+    public List<Usuario> getByName(String nome) {
+        return repository.getByNome(nome);
+    }
+
+    @Override
+    public Usuario getById(Long id) {
+        return repository.getById(id);
     }
 
 

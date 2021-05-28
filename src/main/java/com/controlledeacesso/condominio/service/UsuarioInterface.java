@@ -10,7 +10,9 @@ public interface UsuarioInterface {
 
     public List<Usuario> findAll();
 
-    public List<Usuario> getByName(String nome);
-
     public Usuario getById(Long id);
+
+    List<Usuario> findBynome(String nome);
+
+    void save(Usuario usuarioConvert);
 }

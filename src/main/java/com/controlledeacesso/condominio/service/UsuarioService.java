@@ -27,14 +27,22 @@ public class UsuarioService implements UsuarioInterface {
         return repository.findAll();
     }
 
-    @Override
-    public List<Usuario> getByName(String nome) {
-        return repository.getByNome(nome);
-    }
 
     @Override
     public Usuario getById(Long id) {
         return repository.getById(id);
+    }
+
+    @Override
+    public List<Usuario> findBynome(String nome) {
+
+        return repository.findByNome(nome);
+    }
+
+    @Override
+    public void save(Usuario us) {
+        repository.save(us);
+
     }
 
 
